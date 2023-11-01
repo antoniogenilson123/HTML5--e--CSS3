@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body {
+    background-color: #98f2c5; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to bottom, hsla(120, 100%, 25%, 0.781), rgba(0, 0, 0, 0.562) );
+    padding: 20px 20px;
+    margin: -8px -10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+header > h1 {
+    color: rgba(255, 255, 255, 0.911);
+    font-family: sans-serif, verdana, Tahoma;
+    text-align: center;
+}
+
+header > P {
+    color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+}
+
+.navegar {
+    color: rgba(255, 255, 255, 0.911);
+    text-decoration-line: none;
+    text-align: left;
+    display: flex;
+}
+
+.navegar:hover {
+    color: aqua;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 9px 200px 0px 200px;
+}
+
+main > section > h1 {
+    font: normal normal 2em 'idroid', arial, Helvetica;
+    color: rgb(14, 83, 14);
+}
+
+.title2 {
+    font: normal normal 1.5em 'idroid', arial, Helvetica;
+    background-image: linear-gradient(to right, rgb(183, 247, 183), rgb(255, 255, 255));
+    color: rgb(14, 83, 14);
+}
+
+.link {
+    color: rgb(5, 75, 5);
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+
+.link:visited {
+    color: rgb(2, 19, 2);
+}
+
+.link:hover {
+    color: rgb(12, 5, 39);
+}
+
+.video {
+    text-align: center;
+    border: 30px solid rgb(2, 56, 2);
+}
+
+.imagem {
+    text-align: center;
+}
+
+.complemento {
+    background-color: rgba(130, 238, 172, 0.411);
+    padding: 0px 4px 10px 4px;
+}
+
+.title3 {
+    background-color: rgba(0, 136, 95, 0.918);
+    color: rgba(255, 255, 255, 0.911);
+    padding: 10px 10px 10px 10px;
+}
+
+
+footer{
+    background-color: rgb(3, 34, 3);
+    color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    padding: 0px 1px 3px 1px;
+    margin: -8px
+}
+
+footer > p > a{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration-line: none;
+}

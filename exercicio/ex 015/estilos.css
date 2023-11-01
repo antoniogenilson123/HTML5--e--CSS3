@@ -1,0 +1,21 @@
+
+
+body{
+    background-color: aquamarine;
+    font-size: 20px;
+
+}
+
+h1{
+    color: darkred;
+    font-size: 1.5em;
+    background-color: aliceblue;
+}
+h2{
+    color: fuchsia;
+    font-size: 1em;
+    font-style: italic;
+}
+p{
+    font-style: italic;
+}
